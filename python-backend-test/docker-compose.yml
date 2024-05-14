@@ -1,0 +1,10 @@
+services:
+  python-backend-test:
+    build:
+        context: ./
+    volumes:
+        - ./src:/usr/src/app
+    hostname: python-backend-test
+    ports:
+      - "5000:5000"
+

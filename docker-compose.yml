@@ -1,0 +1,20 @@
+services:
+  python-backend-test:
+    build:
+        context: ./python-backend-test/
+    volumes:
+        - ./python-backend-test/src:/usr/src/app
+    hostname: python-backend-test
+    ports:
+      - "5000:5000"
+  angular-test:
+    build:
+        context: ./angular-test/
+        target: builder
+    volumes:
+        - ./angular-test/:/project
+    hostname: angular-test
+    ports:
+      - "4202:4200"
+
+

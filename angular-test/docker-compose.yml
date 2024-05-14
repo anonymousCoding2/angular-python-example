@@ -1,0 +1,12 @@
+services:
+  angular-test:
+    build:
+        context: ./
+        target: builder
+    volumes:
+        - ./:/project
+        - /project/node_modules
+    hostname: python-backend-test
+    ports:
+      - "4202:4200"
+

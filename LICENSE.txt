@@ -2,7 +2,7 @@ The original code is distributed and owned by Vyom Srivastava from https://www.t
 
 Vyom Srivastava holds the right to change the license at anytime. Since the code originally posted on a website as a tutorial,
 it will be assumed that is public domain for educational use. Anyone is free to copy, modify, use, and compile. As long as you
-give credit to Vyom Srivastava and AnonymousCoding2. You must also put a copy this license in the source code.
+give credit to Vyom Srivastava. You must also put a copy this license in the source code.
 
 AnonymousCoding2 has applied fixes, additional code/files for docker to Vyom Srivastava original code.
 
